@@ -1,7 +1,3 @@
-# laradock
-Adaptación de Laradock para la FCE
-
-
 # **Resumen de servicios en**
 
 # docker-compose.yml
@@ -57,60 +53,41 @@ Adaptación de Laradock para la FCE
 
 ### **Bases de datos**
 
-- **mysql  
-    **
-- **percona  
-    **
-- **mssql  
-    **
-- **mariadb  
-    **
-- **postgres  
-    **
-- **postgres-postgis  
-    **
+- **mysql**
+- **percona**
+- **mssql**
+- **mariadb**
+- **postgres**
+- **postgres-postgis**
 - **pgbackups** → backup automático de Postgres.  
 
 - **neo4j** → base de grafos.  
 
-- **mongo  
-    **
-- **rethinkdb  
-    **
-- **clickhouse  
-    **
-- **cassandra  
-    **
-- **redis** / **redis-cluster  
-    **
+- **mongo**
+- **rethinkd**
+- **clickhouse**
+- **cassandra**
+- **redis** / **redis-cluster**
 - **ssdb** → key-value DB similar a Redis.  
 
-- **aerospike  
-    **
+- **aerospike**
 - **nats** → sistema de mensajería ligera.  
 
 - **zookeeper** → coordinación para Kafka y otros.  
 
-- **couchdb  
-    **
-- **tarantool** / **tarantool-admin  
-    **
+- **couchdb**
+- **tarantool** / **tarantool-admin**
 - **manticore** → motor de búsqueda (fork de Sphinx).  
 
 ### **Motores de búsqueda / analítica**
 
-- **meilisearch  
-    **
-- **elasticsearch  
-    **
-- **logstash  
-    **
-- **kibana  
-    **
+- **meilisearch**
+- **elasticsearch**
+- **logstash**
+- **kibana**
 - **dejavu** (UI para ES).  
 
-- **solr  
-    **
+- **solr**
 - **sonarqube** → análisis estático de código.  
 
 - **weaver (AthenaPDF)** → conversión de documentos a PDF.  
@@ -129,8 +106,7 @@ Adaptación de Laradock para la FCE
 
 - **gitlab** → servidor Git.  
 
-- **gitlab-runner  
-    **
+- **gitlab-runner**
 - **portainer** → dashboard de Docker.  
 
 - **docker-registry** → registro privado de imágenes.  
@@ -143,39 +119,27 @@ Adaptación de Laradock para la FCE
 
 ### **IDEs web**
 
-- **ide-theia  
-    **
-- **ide-webide  
-    **
-- **ide-codiad  
-    **
-- **ide-icecoder  
-    **
+- **ide-theia**
+- **ide-webide**
+- **ide-codiad**
+- **ide-icecoder**
 
 ### **Herramientas admin**
 
-- **phpmyadmin  
-    **
-- **adminer  
-    **
-- **pgadmin  
-    **
-- **redis-webui  
-    **
-- **mongo-webui  
-    **
+- **phpmyadmin**
+- **adminer**
+- **pgadmin**
+- **redis-webui**
+- **mongo-webui**
 
 ### **Documentación & APIs**
 
-- **swagger-editor  
-    **
-- **swagger-ui  
-    **
+- **swagger-editor**
+- **swagger-ui**
 
 ### **Testing & automatización**
 
-- **selenium  
-    **
+- **selenium**
 - **thumbor** → procesador de imágenes.  
 
 ### **Seguridad / autenticación**
